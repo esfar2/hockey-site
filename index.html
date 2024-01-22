@@ -28,6 +28,7 @@
               menu: '#FF4240',
               default: '#131318',
               small: '#424247',
+              paragraph: ' #13131863',
             },
           },
         },
@@ -41,7 +42,7 @@
     </style>
   </head>
   <body>
-    <header>
+    <header class="mb-10">
       <nav class="container mx-auto text-default">
         <div class="navbar bg-base-100 flex justify-between items-center">
           <div class="navbar-start">
@@ -103,14 +104,189 @@
                 />
               </svg>
             </button>
-            <button class="btn btn-secondary py-0 px-2 bg-menu hover:bg-menu">
+            <button class="btn btn-secondary bg-menu hover:bg-menu">
               Get Ticket
             </button>
           </div>
         </div>
       </nav>
+      <!-- HR -->
+      <div class="flex justify-center my-12">
+        <hr class="border-dashed bg-paragraph w-[90vw]" />
+      </div>
     </header>
-    <main></main>
+    <main class="container mx-auto text-default">
+      <!-- Professional Hockey Club -->
+      <section>
+        <div class="text-center space-y-4">
+          <h1 class="text-lg lg:text-4xl font-extrabold">
+            Professional Hockeys Club
+          </h1>
+          <p class="text-sm lg:text-base text-paragraph font-medium">
+            Check our facilities
+          </p>
+        </div>
+        <!-- HR -->
+        <div class="flex justify-center my-12">
+          <hr class="border-dashed bg-paragraph w-[90vw]" />
+        </div>
+        <!-- Radial Row-->
+        <div
+          class="flex flex-col space-y-6 lg:space-y-0 lg:flex-row justify-between"
+        >
+          <!-- First Radial -->
+          <div class="text-center space-y-4">
+            <div
+              class="radial-progress text-red-600"
+              style="--value: 87; --size: 8rem"
+              role="progressbar"
+            >
+              <span class="text-default text-3xl font-extrabold">87%</span>
+            </div>
+            <h1 class="text-3xl font-semibold">Prayer Facility</h1>
+            <p class="text-paragraph text-lg">New Prayer Room</p>
+          </div>
+          <!-- Second Radial -->
+          <div class="text-center space-y-4">
+            <div
+              class="radial-progress text-[#49D293]"
+              style="--value: 95; --size: 8rem"
+              role="progressbar"
+            >
+              <span class="text-default text-3xl font-extrabold">95%</span>
+            </div>
+            <h1 class="text-3xl font-semibold">Experienced Coach</h1>
+            <p class="text-paragraph text-lg">10+ years of Experience</p>
+          </div>
+          <!-- First Radial -->
+          <div class="text-center space-y-4">
+            <div
+              class="radial-progress text-[#FFB546]"
+              style="--value: 90; --size: 8rem"
+              role="progressbar"
+            >
+              <span class="text-default text-3xl font-extrabold">90%</span>
+            </div>
+
+            <h1 class="text-3xl font-semibold">Senior Player</h1>
+            <p class="text-paragraph text-lg">A lot of senior players</p>
+          </div>
+          <!-- First Radial -->
+          <div class="text-center space-y-4">
+            <div
+              class="radial-progress text-[#4C8DF1]"
+              style="--value: 80; --size: 8rem"
+              role="progressbar"
+            >
+              <span class="text-default text-3xl font-extrabold">80%</span>
+            </div>
+            <h1 class="text-3xl font-semibold">Training Ground</h1>
+            <p class="text-paragraph text-lg">
+              Full Support for every age range
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center my-12">
+          <hr class="border-dashed bg-paragraph w-[90vw]" />
+        </div>
+      </section>
+      <section>
+        <div class="text-center space-y-4">
+          <h1 class="text-lg lg:text-4xl font-extrabold">Program Sections</h1>
+          <p class="text-sm lg:text-base text-paragraph font-medium">
+            Check out our Curriculum
+          </p>
+        </div>
+        <!-- HR -->
+        <div class="flex justify-center my-12">
+          <hr class="border-dashed bg-paragraph w-[90vw]" />
+        </div>
+        <!-- Programs -->
+        <div class="grid grid-cols-1 gap-5 lg:grid-cols-4">
+          <!-- Grid 1 -->
+          <div class="lg:col-span-2">
+            <div
+              class="hero h-[100%] rounded-2xl place-items-center lg:place-items-start"
+              style="
+                background-image: url('Images/2.png');
+                background-size: cover;
+              "
+            >
+              <div
+                class="hero-overlay bg-opacity-[rgba(19, 19, 24, 0.50)] rounded-2xl"
+              ></div>
+              <div class="hero-content text-neutral-content">
+                <div
+                  class="w-[100%] text-white text-center lg:text-left py-[95px] px-[24px]"
+                >
+                  <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                  <p class="mb-5">Amazing Courses for the youth</p>
+                  <button
+                    class="btn text-white bg-menu border-none hover:bg-menu"
+                  >
+                    Register Now!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 2 -->
+          <div class="lg:col-span-2">
+            <div
+              class="hero h-[100%] rounded-2xl place-items-center lg:place-items-start"
+              style="
+                background-image: url('Images/3.png');
+                background-size: cover;
+              "
+            >
+              <div
+                class="hero-overlay bg-opacity-[rgba(19, 19, 24, 0.50)] rounded-2xl"
+              ></div>
+              <div class="hero-content text-neutral-content">
+                <div
+                  class="w-[100%] text-white text-center lg:text-left py-[95px] px-[24px]"
+                >
+                  <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                  <p class="mb-5">Amazing Courses for the youth</p>
+                  <button
+                    class="btn text-white bg-menu border-none hover:bg-menu"
+                  >
+                    Register Now!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 3 -->
+          <div class="lg:col-span-4">
+            <div
+              class="hero h-[100%] rounded-2xl place-items-center lg:place-items-start"
+              style="
+                background-image: url('Images/4.png');
+                background-size: cover;
+              "
+            >
+              <div
+                class="hero-overlay bg-opacity-[rgba(19, 19, 24, 0.50)] rounded-2xl"
+              ></div>
+              <div class="hero-content text-neutral-content">
+                <div
+                  class="w-[100%] text-white text-center lg:text-left py-[95px] px-[24px]"
+                >
+                  <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                  <p class="mb-5">Amazing Courses for the youth</p>
+                  <button
+                    class="btn text-white bg-menu border-none hover:bg-menu"
+                  >
+                    Register Now!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
