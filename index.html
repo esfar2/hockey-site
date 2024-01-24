@@ -42,7 +42,7 @@
     </style>
   </head>
   <body>
-    <header class="mb-10">
+    <header class="mb-0 container mx-auto text-default">
       <nav class="container mx-auto text-default">
         <div class="navbar bg-base-100 flex justify-between items-center">
           <div class="navbar-start">
@@ -110,8 +110,101 @@
           </div>
         </div>
       </nav>
+      <section class="flex flex-col mx-2">
+        <div
+          class="carousel w-[410px] mb-2 lg:mb-0 lg:w-full mx-auto h-[200px] lg:h-auto"
+        >
+          <div
+            id="slide1"
+            class="carousel-item relative w-full lg:h-[80vh] bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(./images/1.png)] bg-no-repeat bg-cover rounded-xl"
+          >
+            <div
+              class="absolute flex gap-3 transform -translate-y-1/2 left-[37%] lg:left-10 lg:right-5 top-[80%] lg:top-[90%]"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/left.svg" alt=""
+              /></a>
+              <a
+                href="#slide2"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/right.svg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div
+            id="slide2"
+            class="carousel-item relative w-full lg:h-[80vh] bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(./images/1.png)] bg-no-repeat bg-cover rounded-lg"
+          >
+            <div
+              class="absolute flex gap-3 transform -translate-y-1/2 left-[37%] lg:left-10 lg:right-5 top-[80%] lg:top-[90%]"
+            >
+              <a
+                href="#slide1"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/left.svg" alt=""
+              /></a>
+              <a
+                href="#slide3"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/right.svg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div
+            id="slide3"
+            class="carousel-item relative w-full lg:h-[80vh] bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(./images/1.png)] bg-no-repeat bg-cover rounded-lg"
+          >
+            <div
+              class="absolute flex gap-3 transform -translate-y-1/2 left-[37%] lg:left-10 lg:right-5 top-[80%] lg:top-[90%]"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/left.svg" alt=""
+              /></a>
+              <a
+                href="#slide4"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/right.svg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div
+            id="slide4"
+            class="carousel-item relative w-full lg:h-[80vh] bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(./images/1.png)] bg-no-repeat bg-cover rounded-lg"
+          >
+            <div
+              class="absolute flex gap-3 transform -translate-y-1/2 left-[37%] lg:left-10 lg:right-5 top-[80%] lg:top-[90%]"
+            >
+              <a
+                href="#slide3"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/left.svg" alt=""
+              /></a>
+              <a
+                href="#slide1"
+                class="btn btn-circle border-none bg-black hover:bg-black"
+                ><img src="./Images/right.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="lg:h-48 w-full lg:w-1/2 lg:mx-auto bg-black text-center lg:text-left rounded-lg py-2 lg:py-7 px-1 lg:px-3 -translate-y-0 translate-x-0 lg:-translate-y-56 lg:translate-x-72 mb-0"
+        >
+          <h2 class="text-white text-2xl font-extrabold">
+            Meet all the heroes from the field
+          </h2>
+          <p class="text-gray-600 text-lg font-medium">
+            Enjoy their slideshow here
+          </p>
+        </div>
+      </section>
       <!-- HR -->
-      <div class="flex justify-center my-4 lg:my-12">
+      <div class="flex justify-center my-4 lg:my-0">
         <hr class="border-dashed bg-paragraph w-[100vw]" />
       </div>
     </header>
